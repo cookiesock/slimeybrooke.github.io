@@ -1,0 +1,70 @@
+body {
+	background: #442055;
+	font-family: 'Comic Sans MS';
+	image-rendering: pixelated crisp-edges;
+}
+
+.main {
+	color: white;
+	font-size: 16px;
+	border-color: rgb(25, 3, 37);
+	border-style: solid;
+	border-width: 5px;
+	background: #c75794;
+	background: linear-gradient(180deg, #442055, #c75794);
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 50px;
+	font-weight: bold;
+	margin-top: 10px;
+	border-radius: 25px;
+}
+
+p {
+	font-size: 24px;
+}
+
+header {
+	color: white;
+	font-size: 32px;
+	border-color: #190325;
+	border-style: solid;
+	border-width: 5px;
+	background: #c75794;
+	background: linear-gradient(0deg, #442055, #c75794);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	border-radius: 25px;
+}
+
+button {
+	border: inherit;
+	border-color: inherit;
+	border-width: inherit;
+	background: #7a2b69;
+	font-family: 'Comic Sans MS';
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 75%;
+	margin: none;
+	min-width: 10.9%;
+	border-radius: 10px;
+}
+
+button:hover {
+	color: white;
+	background: #c75794;
+	font-weight: bold;
+}
+
+button a {
+	color: inherit;
+	text-decoration: none;
+}
